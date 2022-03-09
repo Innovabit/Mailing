@@ -1,0 +1,2 @@
+# Mailing
+Corporate mailing application
