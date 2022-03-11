@@ -53,6 +53,14 @@ services:
     image: vault
     container_name: vault
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '5.50'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 128M
     volumes:
       - ./vault/logs:/vault/logs
       - ./vault/file:/vault/file
