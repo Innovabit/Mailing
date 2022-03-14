@@ -51,5 +51,9 @@
     "+fLJ1uz1A7tG4KMT6Zxm3+5D7YDT3dlIyAtzHsiE/QLk",
     "nwYgUOdqx73j4VhnkWOODlDDDGK1q5ZyVicTi4FHsA9p"
   ],
-  "root_token": "s.P0Jzzc3D8sBWxpA9g8xVgxse"
+  "root_token": "s.P0Jzzc3D8sBWxpA9g8xVgxse",
+  "role": {
+    "id": "06bd50ea-82a2-9211-25b5-232012818daa",
+    "secret": "2b7f3331-34f1-2b5e-063a-7f00c3eb3d6d"
+  }
 }
