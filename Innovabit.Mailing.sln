@@ -15,6 +15,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B26D98E6-1754-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovabit.Mailing.UI.Job", "src\UI\Innovabit.Mailing.UI.Job\Innovabit.Mailing.UI.Job.csproj", "{22ED5F87-2BCE-4B51-BBE4-37BD0FD7746D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovabit.Mailing.Core.Domain.Contracts", "src\Core\Innovabit.Mailing.Core.Domain.Contracts\Innovabit.Mailing.Core.Domain.Contracts.csproj", "{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovabit.Mailing.Core.Application.Contracts", "src\Core\Innovabit.Mailing.Core.Application.Contracts\Innovabit.Mailing.Core.Application.Contracts.csproj", "{CB13B3FF-5116-4DA6-B086-13CC3299341F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovabit.Mailing.Core.Application.Dtos", "src\Core\Innovabit.Mailing.Core.Application.Dtos\Innovabit.Mailing.Core.Application.Dtos.csproj", "{D8FA38C2-78A9-4318-B809-48E256813A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6BC9CC84-675D-4A11-B1BD-1AB1830AF206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovabit.Mailing.Infrastructure.Provider.Smtp", "src\Infrastructure\Innovabit.Mailing.Infrastructure.Provider.Smtp\Innovabit.Mailing.Infrastructure.Provider.Smtp.csproj", "{8CB7B4A9-54C0-4253-B188-C6433C1B7E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +46,22 @@ Global
 		{22ED5F87-2BCE-4B51-BBE4-37BD0FD7746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22ED5F87-2BCE-4B51-BBE4-37BD0FD7746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22ED5F87-2BCE-4B51-BBE4-37BD0FD7746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB13B3FF-5116-4DA6-B086-13CC3299341F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB13B3FF-5116-4DA6-B086-13CC3299341F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB13B3FF-5116-4DA6-B086-13CC3299341F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB13B3FF-5116-4DA6-B086-13CC3299341F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FA38C2-78A9-4318-B809-48E256813A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FA38C2-78A9-4318-B809-48E256813A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FA38C2-78A9-4318-B809-48E256813A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FA38C2-78A9-4318-B809-48E256813A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB7B4A9-54C0-4253-B188-C6433C1B7E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB7B4A9-54C0-4253-B188-C6433C1B7E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB7B4A9-54C0-4253-B188-C6433C1B7E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB7B4A9-54C0-4253-B188-C6433C1B7E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1D8A1379-5D83-4682-885D-88747B5B32F9} = {A546EB91-12FD-475C-852F-B793A32D746E}
@@ -43,5 +69,10 @@ Global
 		{46EDEFBF-B000-406D-A055-F13B677FC87B} = {1D8A1379-5D83-4682-885D-88747B5B32F9}
 		{B26D98E6-1754-47F4-954F-B13A3224B96E} = {A546EB91-12FD-475C-852F-B793A32D746E}
 		{22ED5F87-2BCE-4B51-BBE4-37BD0FD7746D} = {B26D98E6-1754-47F4-954F-B13A3224B96E}
+		{08FBB138-4DC0-44EE-903F-F5E4CBF0B5C7} = {1D8A1379-5D83-4682-885D-88747B5B32F9}
+		{CB13B3FF-5116-4DA6-B086-13CC3299341F} = {1D8A1379-5D83-4682-885D-88747B5B32F9}
+		{D8FA38C2-78A9-4318-B809-48E256813A54} = {1D8A1379-5D83-4682-885D-88747B5B32F9}
+		{6BC9CC84-675D-4A11-B1BD-1AB1830AF206} = {A546EB91-12FD-475C-852F-B793A32D746E}
+		{8CB7B4A9-54C0-4253-B188-C6433C1B7E11} = {6BC9CC84-675D-4A11-B1BD-1AB1830AF206}
 	EndGlobalSection
 EndGlobal

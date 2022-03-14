@@ -5,8 +5,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Innovabit.Mailing.Core.Application.Contracts\Innovabit.Mailing.Core.Application.Contracts.csproj" />
-  </ItemGroup>
-
 </Project>
